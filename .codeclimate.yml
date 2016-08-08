@@ -2,3 +2,8 @@ engines:
   eslint:
     enabled: true
     channel: "eslint-2"
+exclude_paths:
+  - "dist/"
+  - "docs/"
+  - "public/"
+  - "vendor/"
